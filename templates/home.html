@@ -1,0 +1,41 @@
+
+<html>
+    <body bgcolor=LightGray>
+
+        <center>
+
+        <h1> SEPIS DETECTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> intubated_free_days  :  <input type="float", name='intubated_free_days', placeholder="enter 1"> <br><br>
+            inotrope_free_days   :  <input type="float", name='inotrope_free_days', placeholder="enter 2"> <br><br>
+            length_of_stay_hours  :  <input type="float", name='length_of_stay_hours', placeholder="enter 3"> <br><br>
+            temp_celsius :  <input type="float", name='temp_celsius', placeholder="enter 3"> <br><br>
+            onset_age_in_days  :  <input type="float", name='onset_age_in_days', placeholder="enter 3"> <br><br>
+            episode_id :  <input type="float", name='episode_id', placeholder="enter 3"> <br><br>
+            time_to_antibiotics  :  <input type="float", name='time_to_antibiotics', placeholder="enter 3"> <br><br>
+            onset_hour_of_day  :  <input type="float", name='onset_hour_of_day', placeholder="enter 3"> <br><br>
+            race :  <input type="float", name='race', placeholder="enter 3"> <br><br>
+            unique_patient_id :  <input type="float", name='unique_patient_id', placeholder="enter 3"> <br><br>
+            birth_weight_kg :  <input type="float", name='birth_weight_kg', placeholder="enter 3"> <br><br>
+            inotrope_at_time_of_sepsis_eval  :  <input type="float", name='inotrope_at_time_of_sepsis_eval', placeholder="enter 3"> <br><br>
+            gestational_age_at_birth_weeks :  <input type="float", name='gestational_age_at_birth_weeks', placeholder="enter 3"> <br><br>
+            sepsis_group :  <input type="float", name='sepsis_group', placeholder="enter 3"> <br><br>
+            period :  <input type="float", name='period', placeholder="enter 3"> <br><br>
+            intubated_at_time_of_sepsis_evaluation :  <input type="float", name='intubated_at_time_of_sepsis_evaluation', placeholder="enter 3"> <br><br>
+            comorbidity_surgical :  <input type="float", name='comorbidity_surgical', placeholder="enter 3"> <br><br>
+            sex  :  <input type="float", name='sex', placeholder="enter 3"> <br><br>
+            blood_culture_positive :  <input type="float", name='blood_culture_positive', placeholder="enter 3"> <br><br>
+            positive_days :  <input type="float", name='positive_days', placeholder="enter 3"> <br><br>
+            umbilical_arterial_line : <input type="float", name='umbilical_arterial_line', placeholder="enter 4"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\sep2.jpg' alt="Sepis">
+
+        <footer>&copy; Copyright 2022 Oliver</footer>
+
+    </center>
+
+    </body>
+</html>
